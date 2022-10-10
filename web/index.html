@@ -54,10 +54,6 @@
 <body>
   <script>
     window.addEventListener('load', function(ev) {
-      var progressbar = document.createElement('PROGRESS');
-      progressbar.setAttribute("max", "1");
-      progressbar.setAttribute("id", "pbar");
-      document.body.appendChild(progressbar);
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
